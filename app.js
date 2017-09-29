@@ -19,7 +19,7 @@ app.post('/:test', function (req, res) {
 
     console.dir(req_log, {depth: null, colors: true});
     
-    res.send('{ok');
+    res.send('ok');
 })
 
 const port = process.env.PORT || 3000
